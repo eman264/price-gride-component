@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Scheherazade&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Scheherazade', serif;
+}
+
+/* header */
+.header{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.header h1{
+   color: hsl(179, 62%, 43%);
+   padding: 15px 0;
+}
+
+.header h2{
+    color: hsl(71, 73%, 54%);
+}
+
+.header p{
+    color: gray;
+    font-size: 20px;
+}
+
+/* division */
+.division{
+    width: 100%;
+    display:flex;
+    color:#fff;
+}
+
+.division .left{
+    background-color:hsl(179, 62%, 43%) ;
+    width: 50%;
+    padding: 40px;
+}
+
+.division .left .one{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.division .left .two{
+    font-size: 40px;
+}
+
+.division .left .two span{
+    font-size: 20px;
+    color: #ddd;
+}
+
+.division .left .four{
+    font-size: 23px;
+}
+
+.division button{
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+    padding: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px;
+}
+
+.division .right{
+    background-color: rgb(102, 216, 203);
+    width: 50%;
+    padding: 40px;
+}
+.division .right .five{
+    letter-spacing: 3px;
+}
+
+.division .right .six{
+    font-size: 25px;
+    color: #fff ;
+}
+
+/* media query */
+@media (max-width:680px){
+    /* division */
+.division{
+    width: 100%;
+    color:#fff;
+    display: block;
+}
+
+.division .left{
+    background-color:hsl(179, 62%, 43%) ;
+    width: 100%;
+    padding: 40px;
+}
+
+.division .left .one{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.division .left .two{
+    font-size: 40px;
+}
+
+.division .left .two span{
+    font-size: 20px;
+    color: #ddd;
+}
+
+.division .left .four{
+    font-size: 23px;
+}
+
+.division button{
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+    padding: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 10px;
+}
+
+.division .right{
+    background-color: rgb(102, 216, 203);
+    width: 100%;
+    padding: 40px;
+}
+
+.division .right .five{
+    letter-spacing: 3px;
+}
+
+.division .right .six{
+    font-size: 25px;
+    color: #fff ;
+}
+}
